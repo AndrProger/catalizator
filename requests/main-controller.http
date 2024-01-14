@@ -1,0 +1,8 @@
+POST http://localhost:8080/controller
+Content-Type: application/json
+
+{
+  "data": "2"
+}
+###
+GET http://localhost:8080/controller

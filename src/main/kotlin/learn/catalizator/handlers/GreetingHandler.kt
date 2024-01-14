@@ -24,7 +24,7 @@ class GreetingHandler {
 		)
 			.skip(start)
 			.take(count)
-			.map { param -> Message(param) }
+			.map { param -> Message(data = param) }
 
 
 		return ServerResponse

@@ -1,5 +1,9 @@
 package learn.catalizator.damain
 
+import org.springframework.data.annotation.Id
+
 data class Message (
-	 val data:String
+	@Id
+	val id: Long? = null,
+	val data: String?=null
 )
